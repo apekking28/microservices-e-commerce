@@ -3,7 +3,7 @@ package com.ilham.orderservice.service;
 import com.ilham.orderservice.dto.InventoryResponse;
 import com.ilham.orderservice.dto.OrderLineItemsDto;
 import com.ilham.orderservice.dto.OrderRequest;
-import com.ilham.orderservice.event.OrderPlaceEvent;
+import com.ilham.orderservice.event.OrderPlacedEvent;
 import com.ilham.orderservice.model.Order;
 import com.ilham.orderservice.model.OrderLineItems;
 import com.ilham.orderservice.repository.OrderRepository;
@@ -30,7 +30,7 @@ public class OrderService {
 
     private final Tracer tracer;
 
-//    private final KafkaTemplate<String,OrderPlaceEvent> kafkaTemplate;
+    private final KafkaTemplate<String, OrderPlacedEvent> kafkaTemplate;
 
     public String placeOrder(OrderRequest orderRequest) {
         Order order = new Order();
@@ -63,7 +63,7 @@ public class OrderService {
 
             if (allProductInStock) {
                 orderRepository.save(order);
-//                kafkaTemplate.send("notificationTopic", new OrderPlaceEvent(order.getOrderNumber()));
+                kafkaTemplate.send("notificationTopic", new OrderPlacedEvent(order.getOrderNumber()));
                 return "Order Placed Successfully";
             } else {
                 throw new IllegalArgumentException("Product is not in stock, please try again letter");
