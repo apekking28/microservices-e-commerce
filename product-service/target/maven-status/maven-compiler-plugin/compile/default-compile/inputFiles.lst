@@ -1,0 +1,7 @@
+/Users/user/Documents/belajar-springboot/spring-boot-microservices/microservices-parent/microservices-new/product-service/src/main/java/com/ilham/productservice/ProductServiceApplication.java
+/Users/user/Documents/belajar-springboot/spring-boot-microservices/microservices-parent/microservices-new/product-service/src/main/java/com/ilham/productservice/controller/ProductController.java
+/Users/user/Documents/belajar-springboot/spring-boot-microservices/microservices-parent/microservices-new/product-service/src/main/java/com/ilham/productservice/model/Product.java
+/Users/user/Documents/belajar-springboot/spring-boot-microservices/microservices-parent/microservices-new/product-service/src/main/java/com/ilham/productservice/service/ProductService.java
+/Users/user/Documents/belajar-springboot/spring-boot-microservices/microservices-parent/microservices-new/product-service/src/main/java/com/ilham/productservice/dto/ProductResponse.java
+/Users/user/Documents/belajar-springboot/spring-boot-microservices/microservices-parent/microservices-new/product-service/src/main/java/com/ilham/productservice/dto/ProductRequest.java
+/Users/user/Documents/belajar-springboot/spring-boot-microservices/microservices-parent/microservices-new/product-service/src/main/java/com/ilham/productservice/repository/ProductRepository.java

@@ -1,0 +1,5 @@
+/Users/user/Documents/belajar-springboot/spring-boot-microservices/microservices-parent/microservices-new/Inventory-service/src/main/java/com/ilham/inventoryservice/InventoryServiceApplication.java
+/Users/user/Documents/belajar-springboot/spring-boot-microservices/microservices-parent/microservices-new/Inventory-service/src/main/java/com/ilham/inventoryservice/controller/InventoryController.java
+/Users/user/Documents/belajar-springboot/spring-boot-microservices/microservices-parent/microservices-new/Inventory-service/src/main/java/com/ilham/inventoryservice/model/Inventory.java
+/Users/user/Documents/belajar-springboot/spring-boot-microservices/microservices-parent/microservices-new/Inventory-service/src/main/java/com/ilham/inventoryservice/repository/InventoryRepository.java
+/Users/user/Documents/belajar-springboot/spring-boot-microservices/microservices-parent/microservices-new/Inventory-service/src/main/java/com/ilham/inventoryservice/service/InventoryService.java

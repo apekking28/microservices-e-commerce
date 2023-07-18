@@ -1,0 +1,10 @@
+com/ilham/productservice/ProductServiceApplication.class
+com/ilham/productservice/dto/ProductResponse.class
+com/ilham/productservice/model/Product$ProductBuilder.class
+com/ilham/productservice/repository/ProductRepository.class
+com/ilham/productservice/dto/ProductRequest.class
+com/ilham/productservice/controller/ProductController.class
+com/ilham/productservice/service/ProductService.class
+com/ilham/productservice/dto/ProductRequest$ProductRequestBuilder.class
+com/ilham/productservice/dto/ProductResponse$ProductResponseBuilder.class
+com/ilham/productservice/model/Product.class

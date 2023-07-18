@@ -1,0 +1,5 @@
+com/ilham/inventoryservice/InventoryServiceApplication.class
+com/ilham/inventoryservice/model/Inventory.class
+com/ilham/inventoryservice/service/InventoryService.class
+com/ilham/inventoryservice/repository/InventoryRepository.class
+com/ilham/inventoryservice/controller/InventoryController.class

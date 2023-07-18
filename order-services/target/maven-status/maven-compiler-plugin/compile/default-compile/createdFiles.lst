@@ -1,0 +1,8 @@
+com/ilham/orderservice/dto/OrderRequest.class
+com/ilham/orderservice/dto/OrderLineItemsDto.class
+com/ilham/orderservice/service/OrderService.class
+com/ilham/orderservice/OrderServiceApplication.class
+com/ilham/orderservice/model/Order.class
+com/ilham/orderservice/controller/OrderController.class
+com/ilham/orderservice/repository/OrderRepository.class
+com/ilham/orderservice/model/OrderLineItems.class

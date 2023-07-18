@@ -1,0 +1,8 @@
+/Users/user/Documents/belajar-springboot/spring-boot-microservices/microservices-parent/microservices-new/order-services/src/main/java/com/ilham/orderservice/OrderServiceApplication.java
+/Users/user/Documents/belajar-springboot/spring-boot-microservices/microservices-parent/microservices-new/order-services/src/main/java/com/ilham/orderservice/model/OrderLineItems.java
+/Users/user/Documents/belajar-springboot/spring-boot-microservices/microservices-parent/microservices-new/order-services/src/main/java/com/ilham/orderservice/service/OrderService.java
+/Users/user/Documents/belajar-springboot/spring-boot-microservices/microservices-parent/microservices-new/order-services/src/main/java/com/ilham/orderservice/controller/OrderController.java
+/Users/user/Documents/belajar-springboot/spring-boot-microservices/microservices-parent/microservices-new/order-services/src/main/java/com/ilham/orderservice/dto/OrderLineItemsDto.java
+/Users/user/Documents/belajar-springboot/spring-boot-microservices/microservices-parent/microservices-new/order-services/src/main/java/com/ilham/orderservice/model/Order.java
+/Users/user/Documents/belajar-springboot/spring-boot-microservices/microservices-parent/microservices-new/order-services/src/main/java/com/ilham/orderservice/repository/OrderRepository.java
+/Users/user/Documents/belajar-springboot/spring-boot-microservices/microservices-parent/microservices-new/order-services/src/main/java/com/ilham/orderservice/dto/OrderRequest.java
