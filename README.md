@@ -1,7 +1,5 @@
 # Documentation for Microservices E - commerce
 
-# Project Title
-
 An e-commerce platform that consists of multiple microservices.
 
 ## Table of Contents
