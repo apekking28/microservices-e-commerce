@@ -91,9 +91,6 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 ## Acknowledgments
 * Thanks to those who contributed to this project.
-* Thanks to OpenAI for creating a model capable of writing such a Readme! 
-
-Make sure to replace all the placeholders with your real data (like URLs, paths, and usernames) before publishing this README.
 
 
 This project is still under development
