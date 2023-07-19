@@ -81,10 +81,10 @@ Explain how to run the automated tests for this system. For example, each micros
 Please read [CONTRIBUTING.md](LINK TO YOUR CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
 
 ## Versioning
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your-repository-url/tags).
+We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/apekking28/microservices-e-commerce).
 
 ## Authors
-* **Your Name** - *Initial work* - [YourGitHubUsername](https://github.com/YourGitHubUsername)
+* **Ilham firmansyah** - *Initial work* - [apekking](https://github.com/apekking28)
 
 See also the list of [contributors](https://github.com/your-repository-url/contributors) who participated in this project.
 
