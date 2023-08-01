@@ -6,14 +6,11 @@ An e-commerce platform that consists of multiple microservices.
 - [Getting Started](#getting-started)
 - [Prerequisites](#prerequisites)
 - [Installation](#installation)
-- [Running the Tests](#running-the-tests)
+- [Running the Tests](#running-the-project)
 - [Services](#services)
 - [Built With](#built-with)
-- [Contributing](#contributing)
-- [Versioning](#versioning)
 - [Authors](#authors)
 - [License](#license)
-- [Acknowledgments](#acknowledgments)
 
 ## Getting Started
 These instructions will provide a copy of the project up and running on your local machine for development and testing purposes.
@@ -37,29 +34,34 @@ git clone https://github.com/your-repository-url.git
 
 2. Navigate to the directory.
 ```sh
-cd your-project-directory
+cd your-clone-project-directory
 ```
 
-3. Build the docker containers for each service using the Dockerfiles provided. For instance:
+3. Build a container for kafka, and docker will create you 2 containers, `broker` & `zookepeer`. For instance:
 ```sh
-cd api-gateway
-docker build -t api-gateway .
-cd ..
+docker-compose up
 ```
 
-4. Repeat step 3 for each service.
-
-5. Run the docker containers.
+4. Build a container for Keycloak. For instance:
 ```sh
-docker run -p 8080:8080 -d api-gateway
+docker run -p 8080:8080 -e KEYCLOAK_ADMIN=admin -e KEYCLOAK_ADMIN_PASSWORD=admin quay.io/keycloak/keycloak:22.0.1 start-dev
 ```
+for more informasion for Keycloak you can see to [Keycloak-documentation](https://www.keycloak.org/getting-started/getting-started-docker)
 
-6. Repeat step 5 for each service.
+5. Build a container for Zipkin. For instance:
+```sh
+docker run -d -p 9411:9411 openzipkin/zipkin
+```
+for more informasion for Zipkin you can see to [Zipkin-documentation](https://zipkin.io/pages/quickstart.html)
+
 
 You should now have all services up and running, and they should be able to communicate with each other through Docker.
 
-## Running the Tests
-Explain how to run the automated tests for this system. For example, each microservice might have its own testing instructions.
+## Running the Project
+  Each microservice may have its own test instructions. so follow this method to run the service: 
+  1. Run discovery-server
+  2. Run api-gateway
+  3. Run all services
 
 ## Services
 - **API Gateway** - Acts as a single point of entry into a system.
@@ -75,22 +77,11 @@ Explain how to run the automated tests for this system. For example, each micros
 * [Maven](https://maven.apache.org/) - Dependency Management.
 * [Docker](https://www.docker.com/) - Containerization platform.
 
-## Contributing
-Please read [CONTRIBUTING.md](LINK TO YOUR CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
-
-## Versioning
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/apekking28/microservices-e-commerce).
-
 ## Authors
-* **Ilham firmansyah** - *Initial work* - [apekking](https://github.com/apekking28)
-
-See also the list of [contributors](https://github.com/your-repository-url/contributors) who participated in this project.
+* **Ilham firmansyah** - [Github](https://github.com/apekking28)
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
-## Acknowledgments
-* Thanks to those who contributed to this project.
 
 
 This project is still under development
